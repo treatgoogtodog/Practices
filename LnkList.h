@@ -1,5 +1,4 @@
-#ifndef LNKLIST.H
-#define LNKLIST.H
+#pragma once
 
 struct ListNode {
     int val;
@@ -9,4 +8,4 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-#endif
+
