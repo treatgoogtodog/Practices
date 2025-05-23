@@ -45,17 +45,17 @@ int compare(const Cx& C1, const Cx& C2){
 
 int main(){
     Complex c1 = {-1, 0};
-Complex c2 = {1, -2};
-Complex c3 = {0, 1};
-Complex c4 = {0, 0};
-Complex c5 = {2, 1};
-print(c1);
-print(c2);
-print(c3);
-print(c4);
-print(c5);
-cout << compare(c1, c2) << endl;
-cout << compare(c3, c4) << endl;
-cout << compare(c5, add(c5, c4)) << endl;
-print(add(c1, add(c2, c3)));
+    Complex c2 = {1, -2};
+    Complex c3 = {0, 1};
+    Complex c4 = {0, 0};
+    Complex c5 = {2, 1};
+    print(c1);
+    print(c2);
+    print(c3);
+    print(c4);
+    print(c5);
+    cout << compare(c1, c2) << endl;
+    cout << compare(c3, c4) << endl;
+    cout << compare(c5, add(c5, c4)) << endl;
+    print(add(c1, add(c2, c3)));
 }
